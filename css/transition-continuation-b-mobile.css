@@ -1,0 +1,158 @@
+.top-menu > li > a.selected {
+    text-decoration: none;
+    color: #fea74c;
+}
+
+.description-title:not(.mobile) {
+    display: none;
+}
+
+.description-title img{
+    width:300px;
+}
+
+.messageline {
+    color: #fea74c;
+}
+
+.service-info {
+    width: 330px;
+    color: #fea74c;
+    background: #feffc8;
+}
+
+.cafe-berry-link-wrapper {
+    margin: 50px auto;
+    width: 380px;
+    height: 40px;
+    font-size: 24px;
+    background: #fea74c;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.cafe-berry-link {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background: #fea74c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+
+.cafe-berry-link a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.cafe-berry-link::after {
+    content: "▶";
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+}
+
+section.bg-gradation {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe8bf+0,ffffff+32&1+0,0+100 */
+    background: -moz-linear-gradient(top, rgba(254,255,200,1) 0%, rgba(255,255,255,0.68) 32%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(254,255,200,1) 0%,rgba(255,255,255,0.68) 32%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(254,255,200,1) 0%,rgba(255,255,255,0.68) 32%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe8bf', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.attention {
+    color: #fea74c;
+    font-size: 14px;
+}
+
+.content-title {
+    border: #fea74c solid 4px;
+    color: #fea74c;
+}
+
+section > h2 {
+    color: #fea74c;
+}
+
+section > h2:not(.mobile) {
+    display: none;
+}
+
+section > h2 > span {
+    color: #3a3a3a;
+    font-size: 14px;
+}
+
+.service-title {
+    background: #fea74c;
+}
+
+.service-time {
+    border: 1px solid #fea74c;
+    width: 70%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.service-time > .service-time-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-time > .service-time-header > span {
+    color: #fea74c;
+    text-align: center;
+}
+
+.service-time > .service-time-header > .service-time-text {
+    font-size: 28px;
+    color:#fea74c;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.service-time > .service-time-header > .service-time-text > p {
+    margin: 0;
+    text-align: center;
+}
+
+.service-time .service-time-header > .service-time-text span{
+    display: none;
+}
+
+.service-time .service-time-description {
+    text-align: center;
+    font-size: 14px;
+}
+
+.service-time .service-time-description a{
+    text-decoration: none;
+    color:#fea74c;
+}
+
+.service-time-clock {
+    width: 60px;
+    height: 70px;
+    background: url(../images/pc/transiotion-continuation-b/clock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service-time .additional-info-text {
+    color:#666;
+    font-size: 14px;
+}
+
+.schedule-in-a-day .additional-info {
+    /*padding: 0;*/
+}

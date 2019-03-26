@@ -1,0 +1,140 @@
+#header {
+    background-image: url(../images/mobile/cafe-berry/header2.png);
+}
+
+.description-title img {
+    width: 100%;
+}
+
+.description-text {
+    text-align: center;
+}
+
+/*.shop-info {
+    margin: 0 auto 30px auto;
+}
+*/
+.shop-info > table {
+    background: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.shop-info > table > thead > tr > th,
+.shop-info > table > tbody > tr > td,
+.shop-info > table > tbody > tr > th {
+    border: 1px solid #cbcbcb;
+}
+.shop-info th {
+    color: #fea74c;
+    background: #feffc8;
+    text-align: center;
+    width: 70px;
+}
+
+.shop-info th.th-mail:not(.mobile) {
+    display: none;
+}
+
+.shop-info th,
+.shop-info td {
+    padding: 10px 10px;
+}
+
+section .additional-info {
+    margin-top: 50px;
+    background: none;
+    border-top: 0px solid #9de4ff;
+    border-bottom: 0px solid #9de4ff;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.section-title {
+    background: #fea74c;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto auto 20px auto;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.menu-row {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex !important;
+    flex-flow: column;
+/*    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;*/
+}
+
+.menu-image > img {
+    width: 100%;
+}
+
+.menu-attribute {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-share {
+    width: 100%;
+    height: 600px;
+    background: #aaa;
+}
+
+.cafe-feature {
+    background: #a1783a;
+}
+
+.feature-header {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.feature-title {
+    color: #a1653a;
+    flex: 4;
+    margin: 0;
+}
+
+.feature-detail > a{
+    text-decoration: none;
+    color: #a1653a;
+    border-bottom: 1px solid #a1653a;
+}
+
+.feature-body {
+    display: flex;
+}
+
+.feature-description {
+    flex: 4;
+}
+
+.feature-description > ul > li {
+    list-style: none;
+}
+
+.feature-description > ul > li::before {
+    content:"●";
+    color: #a1653a;
+}
+
+
+.feature-image {
+    flex: 2;
+}
+
+.feature-image > img {
+    width: 100%;
+}

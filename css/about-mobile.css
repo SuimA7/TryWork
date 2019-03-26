@@ -1,0 +1,105 @@
+#header {
+    background-image: url(../images/mobile/transiotion-support/banner.png);
+    height: 100px;
+}
+
+section {
+    margin: auto;
+    padding: 10px 30px;
+}
+section h2 {
+    margin: 0px;
+}
+.description-title{
+    text-align: center;
+    color: #60bad5;
+}
+
+section .additional-info {
+    margin-top: 50px;
+    background: none;
+    border-top: 0px solid #9de4ff;
+    border-bottom: 0px solid #9de4ff;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+section .additional-info img{
+    width: 100%;
+}
+
+.section-header{
+    color: #60bad5;
+    border-bottom: #bababa 1px solid;
+}
+
+.section-header.no-line{
+    color: #60bad5;
+    border:none;
+}
+
+.signature {
+    text-align: right;
+}
+
+.ceo-photo{
+    float: right;
+}
+
+.for-background {
+    background: #edf8ff;
+    clear:right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+table td
+{
+    background: #fff;
+    border: #bababa 1px solid;
+    padding: 10px 10px;
+}
+
+table th {
+    background: #7fbde1;
+    color: white;
+    width: 25%;
+}
+
+table td ul
+{
+    padding-left: 20px;
+}
+
+.attachements {
+    margin: auto;
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.attached-document:first-child {
+    margin-right: 20px;
+/*    background: #ecf3f6;
+    border: 2px solid #d5d3d3;
+    padding: 20px 60px;
+    border-radius: 50px;*/
+}
+
+footer:not(.mobile) {
+    display: none;
+}
+
+footer table th,
+footer table td
+{
+    background: none;
+    border: #bababa 0px solid;
+    padding: 0px 0px;
+}
