@@ -24,12 +24,13 @@
 .shop-info > table > tbody > tr > td,
 .shop-info > table > tbody > tr > th {
     border: 1px solid #cbcbcb;
+    font-size: 40px;
 }
 .shop-info th {
     color: #fea74c;
     background: #feffc8;
     text-align: center;
-    width: 70px;
+    width: 170px;
 }
 
 .shop-info th.th-mail:not(.mobile) {
@@ -58,7 +59,11 @@ section .additional-info {
     padding: 10px;
     margin: auto auto 20px auto;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 50px;
+}
+
+.menu-caption {
+    font-size: 40px;
 }
 
 .menu-row {
