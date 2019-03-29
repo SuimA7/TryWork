@@ -1,24 +1,28 @@
 #header {
     background-image: url(../images/mobile/transiotion-support/banner.png);
-    height: 100px;
+    height: 200px;
 }
 
 .description-title{
     text-align: center;
     color: #60bad5;
+    font-size: 60px;
 }
 
 section {
     margin: auto;
-    padding: 10px 30px;
+    padding: 10px 60px;
 }
 section h2 {
-    margin: 0px;
 }
 
 section > h2 > span {
     color: #3a3a3a;
     font-size: 14px;
+}
+
+section .detail {
+    font-size: 40px;
 }
 
 .description-title{
@@ -34,6 +38,8 @@ section > h2 > span {
 .section-header.no-line{
     color: #60bad5;
     border:none;
+    font-size: 50px;
+    margin: 20px 0px;
 }
 
 .additional-info:not(.mobile) {
@@ -76,7 +82,7 @@ table td
     background: #fff;
     border: #bababa 1px solid;
     padding: 10px 10px;
-    font-size: 14px;
+    font-size: 40px;
 }
 
 table th {
@@ -96,6 +102,8 @@ table td ul
 
 .color-orange {
     color: #ffa604;
+    font-size: 50px;
+    margin: 40px 0px;
 }
 
 .map {
