@@ -1,14 +1,13 @@
 #header {
     background-image: url(../images/mobile/transiotion-support/banner.png);
-    height: 100px;
+    height: 200px;
 }
 
 section {
     margin: auto;
-    padding: 10px 30px;
+    padding: 10px 60px;
 }
 section h2 {
-    margin: 0px;
 }
 
 section .additional-info img{
@@ -18,11 +17,13 @@ section .additional-info img{
 .description-title{
     text-align: center;
     color: #60bad5;
+    font-size: 60px;
 }
 
 .section-header{
     color: #60bad5;
     border-bottom: #bababa 1px solid;
+    font-size: 50px;
 }
 
 .for-background {
@@ -41,7 +42,7 @@ table td
     background: #fff;
     border: #bababa 1px solid;
     padding: 10px 10px;
-    font-size: 14px;
+    font-size: 40px;
 }
 
 table th {
@@ -56,7 +57,7 @@ table td ul
 }
 
 section.flow {
-    height: 1000px;
+    height: 2140px;
     background-image: url(../images/mobile/help-information/flow.png);
     background-position: center;
     background-size: contain;
@@ -121,8 +122,8 @@ section.flow {
 
 .use-case-link-wrapper {
     margin: 30px auto;
-    width: 380px;
-    height: 40px;
+    width: 760px;
+    height: 80px;
     font-size: 24px;
     background: #f08ca0;
     display: flex;
@@ -134,15 +135,15 @@ section.flow {
 .use-case-link::after {
     content: "▶";
     text-align: right;
-    font-size: 18px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
 }
 
 .use-case-link {
     width: 100%;
-    height: 40px;
+    height: 80px;
     text-align: center;
-    font-size: 18px;
+    font-size: 40px;
     background: #f08ca0;
     display: flex;
     align-items: center;
